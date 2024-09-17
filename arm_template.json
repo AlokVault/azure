@@ -83,8 +83,8 @@
     "networkSecurityGroupName": {
       "type": "string",
       "allowedValues": [
-        "skandh-dev-nsg",
-        "skandh-qa-nsg",
+        "dev-nsg",
+        "qa-nsg",
         "testing-template-nsg"
       ],
       "metadata": {
@@ -105,12 +105,8 @@
     "sourceIpAddress": {
         "type": "array",
         "defaultValue": [
-            "20.55.36.105",
-            "106.51.108.103",
-            "96.73.242.78",
-            "20.121.59.158",
-            "20.124.190.182",
-            "47.48.249.154"
+            "xx.xx.xx.xxx",
+            "xx.xx.xx.xxx"
         ]
     }
   },
